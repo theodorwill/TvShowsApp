@@ -5,7 +5,50 @@
     tools:context=".MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingTop="0dp">
+
+
+    <LinearLayout
+        android:padding="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="@color/color2"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/searchEdit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.94"
+            android:hint="Name of tv-show..."
+            android:maxLines="1"
+            android:textColor="#eeeeee"
+            android:textColorHint="#eeeeee"
+            android:background="@color/color2"
+            android:textColorHighlight="#eeeeee"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:hint=""
+            android:background="@drawable/ic_search"
+            android:textColorHint="#212121"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/showName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/color2"
+        android:background="#212121"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/showRecyclerView"
