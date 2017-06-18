@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<BaseData> call, Response<BaseData> response) {
                 if (response.isSuccessful()){
                 List<Episode> episodes = response.body().getEmbedded().getEpisodes();
-                recyclerView.setAdapter(new DataAdapter(episodes, R.layout.card_view, getApplicationContext()));
+                recyclerView.setAdapter(new DataAdapter(episodes, R.layout.item_view, getApplicationContext()));
                     String nameOfShow = response.body().getName();
                     showName.setText(nameOfShow);
             } else {
