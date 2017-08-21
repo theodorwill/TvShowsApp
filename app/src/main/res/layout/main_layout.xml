@@ -31,14 +31,6 @@
             android:textColorHighlight="#eeeeee"
             android:inputType="text"/>
 
-        <Button
-            android:id="@+id/confirmButton"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:hint=""
-            android:background="@drawable/ic_search"
-            android:textColorHint="#212121"
-            android:layout_marginRight="5dp" />
     </LinearLayout>
 
     <TextView
