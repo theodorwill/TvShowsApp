@@ -1,4 +1,4 @@
-package com.example.cba.tvshowsapp.Adapter;
+package com.example.cba.tvshowsapp.adapter;
 
 /**
  * Created by cba on 2017-06-17.
@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.example.cba.tvshowsapp.Model.Episode;
+import com.example.cba.tvshowsapp.model.Episode;
 import com.example.cba.tvshowsapp.R;
 import com.squareup.picasso.Picasso;
 

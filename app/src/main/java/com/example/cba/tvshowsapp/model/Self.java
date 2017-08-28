@@ -1,13 +1,13 @@
-package com.example.cba.tvshowsapp.Model;
+package com.example.cba.tvshowsapp.model;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
 /**
  * Created by cba on 2017-06-15.
  */
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
-
-public class Previousepisode {
+public class Self {
 
     @SerializedName("href")
     @Expose

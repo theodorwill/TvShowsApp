@@ -1,4 +1,4 @@
-package com.example.cba.tvshowsapp.Model;
+package com.example.cba.tvshowsapp.model;
 
 /**
  * Created by cba on 2017-06-14.

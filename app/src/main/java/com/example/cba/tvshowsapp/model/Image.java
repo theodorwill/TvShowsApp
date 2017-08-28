@@ -1,4 +1,4 @@
-package com.example.cba.tvshowsapp.Model;
+package com.example.cba.tvshowsapp.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

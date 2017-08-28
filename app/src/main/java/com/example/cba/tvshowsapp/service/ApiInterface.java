@@ -1,8 +1,8 @@
-package com.example.cba.tvshowsapp.Service;
+package com.example.cba.tvshowsapp.service;
 
-import com.example.cba.tvshowsapp.Model.BaseData;
-import com.example.cba.tvshowsapp.Model.Embedded;
-import com.example.cba.tvshowsapp.Model.Episode;
+import com.example.cba.tvshowsapp.model.BaseData;
+import com.example.cba.tvshowsapp.model.Embedded;
+import com.example.cba.tvshowsapp.model.Episode;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
